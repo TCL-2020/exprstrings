@@ -9,5 +9,8 @@ proc tcl::mathfunc::lappend {var args} {lappend $var {*}$args}
 
 proc tcl::mathfunc::lempty {list} {lempty $list}
 
+proc tcl::mathfunc::lrange {list first last} {lrange $list $first $last}
+
+
 
 
